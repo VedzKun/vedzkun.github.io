@@ -1,0 +1,115 @@
+body {
+    margin: 0%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    margin-bottom: 0%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("cf5b751c7a08f05_auto_x2.jpg");
+  
+    /* Set a specific height */
+    min-height: 350px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.header {
+    overflow: hidden;
+    background-color: #deecf8;
+    padding: 10px 5px;
+    height: 80px;
+  }
+  .header .logo {
+    padding-top: 0%;
+    object-fit: contain;
+  }
+  
+  .header a {
+    float: left;
+    color: #b43e8f;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 5px;
+    border-radius: 3px;
+  }
+  
+  .header a.active {
+    background-color:#ea7af4;
+    color: white;
+  }
+  .header-left {
+      float: left;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 11px;
+      text-align: right;
+      color: #F92C85;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+.about-us {
+    height: 150px;
+    
+}
+.about {
+    padding-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.about:hover,.about:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.5em);
+}
+.title {
+    font-size: 25px;
+}
+.spacer-hor {
+    background-color: black;
+    height: 0.15mm;
+}
+.header-right a:hover, .header-right a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.5em);
+}
+.end-tag {
+  font-size: 7px;
+  height: 5em;
+}
+
+.contact {
+    float: left;
+    color: #b43e8f;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 5px;
+    border-radius: 3px;
+    background-color: turquoise;
+    padding: 20px;
+  }
+.contact:hover, .contact:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
